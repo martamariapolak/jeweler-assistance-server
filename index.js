@@ -8,7 +8,7 @@ application.get("/ping", (request, response) => {
     message: "pong"
   });
 });
-const PORT =process.env.PORT || 3000;
-application.listen(3000,()=>{
+const PORT =process.env.PORT || 3001;
+application.listen(PORT,()=>{
   console.log(`server started at port ${PORT}...`);
 })
